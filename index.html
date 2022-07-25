@@ -14,8 +14,8 @@
 <body>
 
     <header class="container">
-        <!--============ navbar design ============= -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <!--============ navbar start ============= -->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -31,15 +31,15 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoe</a>
+                            <a class="nav-link" href="#shoes">Shoe</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
 
 
@@ -48,6 +48,7 @@
                 </div>
             </div>
         </nav>
+        <!--============ navbar end ============= -->
 
         <!--======= slider start ======= -->
         <section class="mt-5">
@@ -167,7 +168,7 @@
 
 
         <!--========== shoe start =========== -->
-        <section class="container my-5">
+        <section class="container my-5 " id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4">
                 <div class="col">
@@ -225,7 +226,7 @@
 
 
         <!--========== bag section start =========== -->
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h2>Bags</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4">
                 <div class="col">
@@ -280,11 +281,36 @@
         </section>
         <!--========== bag section end =========== -->
 
+        <!--======== subscribe section start========= -->
+        <section style="height: 300px;"
+            class="subscribe container  d-flex justify-content-center align-items-center  bg-info  rounded-3 "
+            id="subscribe">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more</p>
+                <form>
+                    <div class="mb-2">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
 
 
+        </section>
+        <!--======== subscribe section end========= -->
 
 
     </main>
+
+
+    <!--========= footer section strat  ========= -->
+    <footer class="mt-5 text-center">
+        <p>
+            <small> ©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+        </p>
+    </footer>
+    <!--========= footer section end  ========= -->
 
 
 
